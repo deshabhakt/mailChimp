@@ -12,6 +12,11 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -24,23 +29,44 @@
 </head>
 
 <body class="text-center">
-    <form class="form-signin" action="/" method="POST">
-        <img class="mb-4" src="https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg" alt="" width="72"
-            height="72">
-        <h1 class="h3 mb-3 font-weight-normal">Sing up to my Newsletter</h1>
-        <input type="text"  name="firstName" class="form-control top" placeholder="First Name" required autofocus>
-        <input type="text"  name="lastName" class="form-control middle" placeholder="Last Name" required>
-        <input type="email" name="email" class="form-control middle" placeholder="Email" required>
-        <input type="number" name="phoneNumber" class="form-control middle" placeholder="Mobile Number" required>
-        <input placeholder="Birth Date" class="form-control middle" type="text" onfocus="(this.type='date')" name="birthDate">
-        <input type="text" name="postalAddress" class="form-control bottom" placeholder="Postal Address">
+    <div>
+        <h3 class="mt-1 quote">The time is always right to do what is right.</h3>
+        <p class="author-name mb-1">-Martin Luther King</p>
         
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Me up</button>
-        <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
-    </form>
+        <div class="container cnt-form">
+            <div class="row">
+                <div class="col-gen col-sm col-icon-title">
+                    <img class="mb-4" src="https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg"
+                        alt="" width="72" height="72">
+                    <h1 class="h3 mb-3 font-weight-normal">Sing up to my Newsletter</h1>
+                </div>
+                <div class="col-gen col-sm">
 
+                    <form class="form-signin" action="/" method="POST">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+                        <input type="text" name="firstName" class="form-control top" placeholder="First Name" required
+                            autofocus>
+                        <input type="text" name="lastName" class="form-control middle" placeholder="Last Name" required>
+                        <input type="email" name="email" class="form-control middle" placeholder="Email" required>
+                        <input type="number" name="phoneNumber" class="form-control middle" placeholder="Mobile Number"
+                            required>
+                        <input placeholder="Birth Date" class="form-control middle" type="text"
+                            onfocus="(this.type='date')" name="birthDate">
+                        <input type="text" name="postalAddress" class="form-control bottom"
+                            placeholder="Postal Address">
+
+                        <button class="btn btn-lg btn-primary btn-block btn-sign-up" type="submit">Sign Me up</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <p class=" mb-3 text-muted copyright">&copy; 2020-2021</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

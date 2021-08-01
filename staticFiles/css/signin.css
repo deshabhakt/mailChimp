@@ -10,7 +10,6 @@ body {
   -ms-flex-align: center;
   -ms-flex-pack: center;
   -webkit-box-align: center;
-  align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
   padding-top: 40px;
@@ -37,6 +36,11 @@ body {
 .form-signin .form-control:focus {
   z-index: 2;
 }
+
+.btn-sign-up{
+  margin-top: 4%;
+}
+
 .top{
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
@@ -52,6 +56,31 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.col-icon-title{
+  padding-top: 10%;
+}
+
+.container{
+  margin: 5% auto 0%;
+}
+
+.author-name{
+  text-align: right;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 2%;
+}
+
+.quote{
+  margin: 0px auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.cnt-form{
+  margin-bottom: 0%;
 }
 
 /* For success and failure page */
